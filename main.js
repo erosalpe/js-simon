@@ -21,7 +21,7 @@ function oreAttuali(){
 
 function oreMancantiDomani(){
     let d = new Date();
-    oreDomani.innerHTML = (24 - d.getHours()) + 9;
+    oreDomani.innerHTML = (24 - d.getHours()) + 8;
     minutiDomani.innerHTML = (60 - d.getMinutes()) + 30;
     secondiDomani.innerHTML = 60 - d.getSeconds();
 }
